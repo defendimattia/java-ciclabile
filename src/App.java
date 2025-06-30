@@ -20,8 +20,23 @@ public class App {
         return hasElement;
     }
 
+    public void addElemento(int elemento) {
+        int[] newArrayInteri = new int[arrayInteri.length + 1];
+
+        for (int i = 0; i < arrayInteri.length; i++) {
+            newArrayInteri[i] = arrayInteri[i];
+        }
+
+        newArrayInteri[arrayInteri.length] = elemento;
+        arrayInteri = newArrayInteri;
+    }
+
     public App(int[] arrayInteri) {
         this.arrayInteri = arrayInteri;
+    }
+
+    public App() {
+        
     }
 
     public static void main(String[] args) throws Exception {
