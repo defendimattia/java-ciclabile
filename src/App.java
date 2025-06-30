@@ -36,7 +36,7 @@ public class App {
     }
 
     public App() {
-        
+        this.arrayInteri = new int[0];
     }
 
     public static void main(String[] args) throws Exception {
