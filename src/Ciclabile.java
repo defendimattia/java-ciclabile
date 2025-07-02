@@ -1,4 +1,4 @@
-public class App {
+public class Ciclabile {
 
     int[] arrayInteri;
     int currentElement = 0;
@@ -31,11 +31,11 @@ public class App {
         arrayInteri = newArrayInteri;
     }
 
-    public App(int[] arrayInteri) {
+    public Ciclabile(int[] arrayInteri) {
         this.arrayInteri = arrayInteri;
     }
 
-    public App() {
+    public Ciclabile() {
         this.arrayInteri = new int[0];
     }
 
